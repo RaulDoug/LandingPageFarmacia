@@ -1,0 +1,12 @@
+/* PRINCIPAL */
+@import url('./variables.css');
+@import url('./style.css');
+
+/* SECTIONS */
+@import url('./header.css');
+@import url('./sections/hero.css');
+@import url('./sections/about.css');
+@import url('./sections/category.css');
+@import url('./sections/differences.css');
+@import url('./sections/location.css');
+@import url('./footer.css');

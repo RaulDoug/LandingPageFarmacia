@@ -1,0 +1,12 @@
+/* CORES */
+:root {
+  --primary: #E60023;
+  --primary-dark: #C4001b;
+  --secondary: #00B37E;
+  --accent: #FFC107;
+  --dark: #1A1A1A;
+  --gray-dark: #333333;
+  --gray: #666666;
+  --gray-light: #F1F3F5;
+  --light: #FFFFFF;
+}

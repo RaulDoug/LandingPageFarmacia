@@ -1,0 +1,224 @@
+/* HERO MOBILE 365px */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.hero-container {
+  background-image: url('../../img/hero-img-farma.png');
+  position: relative;
+  min-height: 500px;
+  background-size: cover;
+  background-position: 58% center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  background: transparent;
+  z-index: 1;
+  padding: 4rem 1.2rem 1.2rem;
+  gap: 1rem;
+}
+
+.hero-title,
+.hero-details,
+.hero-details * {
+  background-color: transparent;
+}
+
+.hero-title {
+  font-size: 1.8rem;
+  color: var(--gray-light);
+  width: 75%;
+  line-height: 1.5;
+  max-height: calc(1.5em * 4);
+  overflow: hidden;
+}
+
+.hero-title span {
+  background: transparent;
+  color: var(--secondary);
+}
+
+.hero-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding: 1.2rem 0;
+}
+
+.details-item {
+  display: flex;
+  gap: 1rem;
+  width: 50vw;
+  align-items: center;
+  justify-content: start;
+}
+
+.datails-icon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.details-item i {
+  color: var(--secondary);
+  font-size: 1.6rem;
+}
+
+.details-item p {
+  color: var(--gray-light);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.nav-whats-btn.hero-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.7rem;
+  width: 100%;
+  gap: 1.5rem;
+  margin: 0;
+}
+
+.nav-whats-btn.hero-btn {
+  font-size: 0.9rem;
+}
+
+.hero-btn:hover {
+  background-color: var(--secondary);
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(5, 20, 50, 0.95) 0%,
+      rgba(5, 20, 50, 0.8) 35%,
+      rgba(5, 20, 50, 0.4) 65%,
+      rgba(5, 20, 50, 0) 100%
+    );
+}
+
+/* HERO TABLET 768px */
+@media (min-width: 768px) {
+  .hero-container  {  
+    align-items: start;
+    justify-content: start;
+  }
+
+  .hero-content {
+    width: 50%;
+  }
+}
+
+/* HERO DESKTOP 1280px */
+@media (min-width: 1280px) {
+  .hero {
+    margin-top: 8vh;
+  }
+
+  .hero-container  {
+    background-position: right;  
+    width: 100vw;
+    height: 650px;
+    justify-content: baseline;
+  }
+
+  .hero-content {
+    width: 50%;
+    height: 100%;
+    padding-left: 5rem;
+  }
+
+  .hero-title {
+    font-size: 2.8rem;
+    color: var(--gray-light);
+    width: 65%;
+    line-height: 1.5;
+    max-height: calc(1.5em * 4);
+    overflow: hidden;
+  }
+
+  .datails-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .details-item i {
+    color: var(--secondary);
+    font-size: 3rem;
+  }
+
+  .details-item p {
+    color: var(--gray-light);
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: start;
+  }
+
+  .nav-whats-btn.hero-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.2rem;
+    width: 80%;
+    gap: 1.5rem;
+    margin: 0;
+  }
+
+  .nav-whats-btn.hero.btn {
+    font-size: 1.5rem;
+  }
+}
+
+/* HERO WIDE 1440px + */
+@media (min-width: 1440px) {
+  .hero-container  {
+    background-position: center;  
+    width: 100vw;
+    height: 650px;
+    justify-content: baseline;
+  }
+
+  .hero {
+    width: 100vw;
+  }
+
+  .hero-container  {
+    height: 700px;
+    width: 100%;
+  }
+}
+
+/* HERO WIDE+ 1920px */
+@media (min-width: 1920px) {
+  .hero-container  {
+    background-position: center;
+    height: 900px;
+  }
+}

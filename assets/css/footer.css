@@ -1,0 +1,38 @@
+/* FOOTER MOBILE 365px */
+footer {
+  margin-top: 1rem;
+  background-color: #e8eaf0;
+  border-top: 1px solid #d0d1d6;
+}
+
+.footer-copy {
+  padding: 1rem;
+  font-size: 0.65rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+/* TABLET 768px */
+@media (min-width: 768px) {
+  .footer-copy {
+    font-size: 0.8rem;
+    text-align: start;
+    padding: 1rem 2rem;
+  }
+}
+
+/* DESKTOP 1280px */
+@media (min-width: 1280px) {
+  .footer-copy {
+    font-size: 0.9rem;
+    padding: 1rem 5rem;
+  }
+}
+
+/* WIDE+ 1920px */
+@media (min-width: 1920px) {
+  .footer-copy {
+    font-size: 1rem;
+    padding: 1rem 6rem;
+  }
+}
