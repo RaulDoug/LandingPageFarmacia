@@ -59,6 +59,11 @@ li {
   background-color: var(--primary);
 }
 
+.nav-whats-btn:hover {
+  color: var(--primary);
+  cursor: pointer;
+}
+
 .whats-btn i {
   width: 100%;
   height: 100%;
