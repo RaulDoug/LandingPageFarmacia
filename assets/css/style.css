@@ -59,7 +59,7 @@ li {
   background-color: var(--primary);
 }
 
-.nav-whats-btn:hover {
+.whats-btn:hover {
   background-color: var(--primary);
   cursor: pointer;
 }
