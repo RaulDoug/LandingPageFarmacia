@@ -60,7 +60,7 @@ li {
 }
 
 .nav-whats-btn:hover {
-  color: var(--primary);
+  background-color: var(--primary);
   cursor: pointer;
 }
 
